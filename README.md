@@ -1,28 +1,27 @@
 # ThunkBasket
 
-ThunkBasket, React ve Redux kullanarak oluşturulmuş bir e-ticaret uygulamasıdır. Bu uygulamada, kullanıcılar restoranları ve bu restoranlardaki ürünleri görüntüleyebilir, sepetlerine ürün ekleyebilir ve ödeme işlemlerini gerçekleştirebilirler.
+ThunkBasket is an e-commerce application built using React and Redux. In this application, users can view restaurants and the products available in these restaurants, add products to their baskets, and complete payment transactions.
 
-## Kullanılan Teknolojiler
+## Used Technologies
 
-React
-Redux
-React Router
-Axios
-Redux Thunk
-Uygulama Yapısı
+- React
+- Redux
+- React Router
+- Axios
+- Redux Thunk
 
-## Uygulama Yapısı
+## Application Structure
 
-components: Uygulamanın bileşenleri.
-pages: Sayfa bileşenleri.
-redux: Redux aksiyonları, reducer'ları ve store yapılandırması.
-utils: Yardımcı işlevler ve API istekleri için kullanılan dosyalar.
+- **components:** Components of the application.
+- **pages:** Page components.
+- **redux:** Redux actions, reducers, and store configuration.
+- **utils:** Helper functions and files used for API requests.
 
-## React Uygulaması
+## React Application
 
-Bu proje, React kullanılarak geliştirilmiş bir web uygulamasıdır. Aşağıda, React uygulamasında sıkça kullanılan bazı hook'ların ve yöntemlerin isimleri bulunmaktadır:
+This project is a web application developed using React. Below are the names of some commonly used hooks and methods in the React application:
 
-### Hook'lar:
+### Hooks:
 
 - useState
 - useEffect
@@ -33,7 +32,7 @@ Bu proje, React kullanılarak geliştirilmiş bir web uygulamasıdır. Aşağıd
 - useMemo
 - useLayoutEffect
 
-### Yöntemler:
+### Methods:
 
 - render()
 - componentDidMount()
@@ -50,24 +49,18 @@ Bu proje, React kullanılarak geliştirilmiş bir web uygulamasıdır. Aşağıd
 
 # Noteworthy Aspects of the Project:
 
-Bu projede dikkate değer bazı özellikler bulunmaktadır:
+There are some notable features in this project:
 
-- **Redux Kullanımı**: Uygulama durum yönetimi için Redux kullanılmıştır. Redux, bileşenler arasında veri paylaşımını kolaylaştırır.
-- **React Router Entegrasyonu**: React Router, uygulama içinde gezinme ve farklı sayfalar arasında geçiş yapma işlemlerini yönetir.
-- **API Entegrasyonu**: Axios kütüphanesi kullanılarak harici API'lerle iletişim kurulmuştur. Bu, dinamik veri alışverişini sağlar.
-- **Component Yapısı**: Proje, bileşen tabanlı bir yapıya sahiptir. Her bileşen tek bir görevi yerine getirir ve yeniden kullanılabilirliği artırır.
-- **Kolay Kurulum**: Projenin kurulumu ve çalıştırılması basittir. Yalnızca birkaç adımda uygulamayı yerel olarak çalıştırabilirsiniz.
+- **Redux Usage:** Redux is used for state management in the application. Redux facilitates data sharing between components.
+- **React Router Integration:** React Router manages navigation within the application and transitions between different pages.
+- **API Integration:** Communication with external APIs is done using the Axios library. This enables dynamic data exchange.
+- **Component Structure:** The project has a component-based structure. Each component performs a single task, increasing reusability.
+- **Easy Setup:** Setting up and running the project is simple. You can run the application locally in just a few steps.
 
 # Responsive Design
 
 ![Responsive Design](/public/images/responsive.gif)
 
-# Contribute:
-
-If you wish to contribute, you can check out the project on GitHub and send Pull Requests.
-🔗 GitHub Repository:https://github.com/eebrutoklu/ta-case-main
-I extend my gratitude to everyone involved in this project. We aim to strengthen this project further with your valuable insights and feedback!
-
-# Lisans
+# License
 
 This project is created as a sample case for a portfolio. It is not suitable for commercial use or any other purpose. In the event of any copyright infringement, the project owner does not accept any responsibility.
